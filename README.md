@@ -1,7 +1,7 @@
 Here’s a complete, best-practice Python + .env + Docker setup:
 
 📁 1. Project structure
-python-env-app/
+python-app-docker-env/
 │
 ├── app.py
 ├── requirements.txt
@@ -30,8 +30,7 @@ python-dotenv is used to load .env files into Python.
 
 ▶️ 8. Run locally (with .env file)
 First create your real .env:
-docker run --env-file .env python-env-app
-
+docker run --env-file .env python-app-docker-env
 🎯 Output
 Hello Ompriya from Pune!
 
