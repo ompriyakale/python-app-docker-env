@@ -34,3 +34,12 @@ docker run --env-file .env python-env-app
 
 🎯 Output
 Hello Ompriya from Pune!
+
+
+🧠 Key best practices used here
+
+✔ .env not committed
+✔ .env.example shared
+✔ python-dotenv for local dev
+✔ Docker uses --env-file
+✔ Clean separation of code and secrets
